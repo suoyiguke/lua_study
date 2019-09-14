@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nginx" type="Lua">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../nginx" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

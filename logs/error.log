@@ -1,10 +1,25 @@
-2019/09/12 16:48:46 [emerg] 7792#5812: CreateDirectory() "E:\java\work\Openresty_For_Windows_1.13.5.1001_64Bit\work\openresty-test/temp/client_body_temp" failed (3: The system cannot find the path specified)
-2019/09/12 16:51:09 [emerg] 2280#13604: CreateDirectory() "E:\java\work\Openresty_For_Windows_1.13.5.1001_64Bit\work\openresty-test/temp/client_body_temp" failed (3: The system cannot find the path specified)
-2019/09/12 16:51:13 [emerg] 16984#15516: CreateDirectory() "E:\java\work\Openresty_For_Windows_1.13.5.1001_64Bit\work\openresty-test/temp/client_body_temp" failed (3: The system cannot find the path specified)
-2019/09/12 16:51:15 [emerg] 14288#12192: CreateDirectory() "E:\java\work\Openresty_For_Windows_1.13.5.1001_64Bit\work\openresty-test/temp/client_body_temp" failed (3: The system cannot find the path specified)
-2019/09/12 16:51:17 [emerg] 10648#7408: CreateDirectory() "E:\java\work\Openresty_For_Windows_1.13.5.1001_64Bit\work\openresty-test/temp/client_body_temp" failed (3: The system cannot find the path specified)
-2019/09/12 16:51:19 [emerg] 16652#7968: CreateDirectory() "E:\java\work\Openresty_For_Windows_1.13.5.1001_64Bit\work\openresty-test/temp/client_body_temp" failed (3: The system cannot find the path specified)
-2019/09/12 16:51:28 [emerg] 13376#15964: CreateDirectory() "E:\java\work\Openresty_For_Windows_1.13.5.1001_64Bit\work\openresty-test/temp/client_body_temp" failed (3: The system cannot find the path specified)
-2019/09/12 16:53:42 [notice] 17656#17580: using inherited sockets from "644;"
-2019/09/12 17:29:42 [notice] 15548#17432: using inherited sockets from "644;"
-2019/09/12 17:30:00 [notice] 15488#15748: using inherited sockets from "644;"
+2019/09/13 08:36:54 [notice] 4812#6568: signal process started
+2019/09/13 08:36:54 [error] 4812#6568: CreateFile() "E:\lua\Openresty_For_Windows_1.13.5.1001_64Bit\x64\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2019/09/13 08:50:22 [notice] 8240#1096: signal process started
+2019/09/13 08:50:22 [error] 8240#1096: CreateFile() "E:\lua\Openresty_For_Windows_1.13.5.1001_64Bit\x64\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2019/09/14 11:38:26 [notice] 20996#21000: using inherited sockets from "644;"
+2019/09/14 11:38:28 [error] 20996#21040: *1 lua entry thread aborted: runtime error: ...For_Windows_1.13.5.1001_64Bit\x64\lua_test\script\db.lua:9: module 'resty.mysql' not found:
+	no field package.preload['resty.mysql']
+	no file 'D:\5.1\lua\resty\mysql.lua'
+	no file '.\resty\mysql.dll'
+	no file 'E:\lua\Openresty_For_Windows_1.13.5.1001_64Bit\x64\nginx\lualib\resty\mysql.so'
+	no file 'E:\lua\Openresty_For_Windows_1.13.5.1001_64Bit\x64\nginx\resty\mysql.dll'
+	no file 'E:\lua\Openresty_For_Windows_1.13.5.1001_64Bit\x64\nginx\loadall.dll'
+	no file '.\resty.dll'
+	no file 'E:\lua\Openresty_For_Windows_1.13.5.1001_64Bit\x64\nginx\lualib\resty.so'
+	no file 'E:\lua\Openresty_For_Windows_1.13.5.1001_64Bit\x64\nginx\resty.dll'
+	no file 'E:\lua\Openresty_For_Windows_1.13.5.1001_64Bit\x64\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...For_Windows_1.13.5.1001_64Bit\x64\lua_test\script\db.lua:9: in function <...For_Windows_1.13.5.1001_64Bit\x64\lua_test\script\db.lua:1>, client: 127.0.0.1, server: , request: "GET /content_by_lua HTTP/1.1", host: "localhost:6699"
+2019/09/14 11:43:21 [notice] 19508#20532: using inherited sockets from "656;"
+2019/09/14 11:43:58 [emerg] 20752#20792: CreateDirectory() "E:\lua\Openresty_For_Windows_1.13.5.1001_64Bit\x64\lua_test/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2019/09/14 11:46:14 [notice] 19400#21316: using inherited sockets from "692;"
+2019/09/14 11:54:45 [notice] 20452#21068: using inherited sockets from "624;"
+2019/09/14 11:55:51 [notice] 20836#20896: using inherited sockets from "136;"
